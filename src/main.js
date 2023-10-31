@@ -13,7 +13,7 @@ import Aos from 'aos';
 import 'aos/dist/aos.css';
 
 const base = axios.create({
-  baseURL: 'http://localhost:3000',
+  baseURL: 'https://backend-fvhm.onrender.com',
 });
 
 Vue.config.productionTip = false
